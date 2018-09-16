@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		B3F6CB3D214E9611000B3349 /* betterpbzx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = betterpbzx; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F6CB40214E9611000B3349 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3F6CB47214EAC5B000B3349 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B3F6CB40214E9611000B3349 /* main.m */,
+				B3F6CB47214EAC5B000B3349 /* README.md */,
 			);
 			path = betterpbzx;
 			sourceTree = "<group>";
@@ -234,6 +236,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5BH7MX3H2E;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -243,6 +246,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5BH7MX3H2E;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
