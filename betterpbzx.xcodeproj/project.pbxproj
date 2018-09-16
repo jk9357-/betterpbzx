@@ -42,6 +42,7 @@
 		B3F6CB34214E9611000B3349 = {
 			isa = PBXGroup;
 			children = (
+				B3F6CB47214EAC5B000B3349 /* README.md */,
 				B3F6CB3F214E9611000B3349 /* betterpbzx */,
 				B3F6CB3E214E9611000B3349 /* Products */,
 			);
@@ -59,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				B3F6CB40214E9611000B3349 /* main.m */,
-				B3F6CB47214EAC5B000B3349 /* README.md */,
 			);
 			path = betterpbzx;
 			sourceTree = "<group>";
